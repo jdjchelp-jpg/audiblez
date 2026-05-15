@@ -72,7 +72,7 @@ After many trials, on Windows we recommend to install audiblez in a Python venv:
 2. Create anew folder: `mkdir audiblez`
 3. Enter the folder: `cd audiblez`
 4. Create a venv: `python -m venv venv`
-5. Activate the venv: `.\venv\Scripts\Activate.ps1`
+5. Activate the venv: `.\venv\Scripts\Activate.ps1 or venv\Scripts\activate.bat`
 6. Install the dependencies: `pip install audiblez pillow wxpython`
 7. Now you can run `audiblez` or `audiblez-ui`
 8. For Cuda support, you need to install Pytorch accordingly: https://pytorch.org/get-started/locally/
